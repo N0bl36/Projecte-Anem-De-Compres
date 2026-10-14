@@ -10,7 +10,7 @@ importIVA= preuDescompte * IVA / 100
 preuFinal= preuDescompte + importIVA
 
 print("--------------------------------")
-print("TIQUET DE COMPRA")
+print("       TIQUET DE COMPRA")
 print("--------------------------------")
 print("DNI: ", DNI)
 print("Precio inicial: ", Preu)
