@@ -1,7 +1,10 @@
+import time
 DNI= input("Introduzca su DNI: ")
 Preu= float(input("Introduzca el precio: "))
 Descompte= float(input("Introduzca el descuento: "))
 IVA= float(input("Introduzca el IVA: "))
+
+time.sleep(0.5)
 
 importDescompte= Preu * Descompte / 100
 preuDescompte= Preu - importDescompte
