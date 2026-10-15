@@ -4,4 +4,4 @@ restoDNI= DNI % 23
 letrasNIF= "TRWAGMYFPDXBNJZSQVHLCKE"
 eleccionLetra= letrasNIF[restoDNI]
 time.sleep(1)
-print("Su NIF es ", DNI, "-", eleccionLetra)
+print("Su NIF es ", str(DNI) + eleccionLetra)
